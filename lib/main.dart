@@ -6,7 +6,10 @@ void main() {
       backgroundColor: Colors.red,
       appBar: AppBar(
         title: const Center(
-          child: Text('Dicee'),
+          child: Text(
+            'Dicee',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
         backgroundColor: Colors.red,
       ),
